@@ -1,0 +1,95 @@
+#album-fotos{
+  width: 43.75rem;
+  margin: 0 auto;
+  padding: 31.25;
+  overflow: hidden;
+  list-style: none;
+}
+#album-fotos li{
+  float: left;
+  width: 11rem;
+  height: 11rem;
+  margin: 0,7rem;
+  border: 0.35rem solid white;
+  background-color: #ffffff;
+  box-shadow: 0.07rem 0.07rem 1.9rem rgba(0,0,0, 0.4);
+  -webkit-transition: all 0.3s ease-in;
+
+
+}
+#album-fotos li:hover{
+  -webkit-transform: scale(1.5);
+}
+#album-fotos li span{
+  opacity: 0;
+  color: #ffffff;
+  text-shadow: 00.07rem 0.7rem 0.7rem #000000;
+  background-color: rgba(0,0,0, 0.3);
+  line-height: 20rem;
+  padding: 0.4rem ;
+}
+#album-fotos li:hover span{
+  opacity: 1;
+
+}
+#foto01{
+  background: url('../_imagens/galeria-01.jpg')no-repeat;
+  background-position: 50% 50%;
+  background-size: 25rem 25rem;
+  background-color: #ffffff;
+}
+#foto01:hover{
+  background-position: 0 0;
+  background-size: 12rem 12rem;
+}
+#foto02{
+  background: url('../_imagens/galeria-02.jpg')no-repeat;
+  background-position: 50% 50%;
+  background-size: 25rem 25rem;
+  background-color: #ffffff;
+  
+}
+#foto02:hover{
+  background-position: 0 0;
+  background-size: 12rem 12rem;
+}
+#foto03{
+  background: url('../_imagens/galeria-03.jpg')no-repeat;
+  background-position: 50% 50%;
+  background-size: 25rem 25rem;
+  background-color: #ffffff;
+}
+#foto03:hover{
+  background-position: 0 0;
+  background-size: 12rem 12rem;
+}
+#foto04{
+  background: url('../_imagens/galeria-04.jpg')no-repeat;
+  background-position: 50% 50%;
+  background-size: 25rem 25rem;
+  background-color: #ffffff;
+}
+#foto04:hover{
+  background-position: 0 0;
+  background-size: 12rem 12rem;
+}
+#foto05{
+  background: url('../_imagens/galeria-05.jpg')no-repeat;
+  background-position: 50% 50%;
+  background-size: 25rem 25rem;
+  background-color: #ffffff;
+}
+#foto05:hover{
+  background-position: 0 0;
+  background-size: 12rem 12rem;
+}
+#foto06{
+  background: url('../_imagens/galeria-06.jpg')no-repeat;
+  background-position: 50% 50%;
+  background-size: 25rem 25rem;
+  background-color: #ffffff;
+}
+#foto06:hover{
+  background-position: 0 0;
+  background-size: 12rem 12rem;
+}
