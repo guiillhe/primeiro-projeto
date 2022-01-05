@@ -1,0 +1,40 @@
+#tv-radio {
+  width: 60rem;
+  height: 35.8rem;
+  margin: auto;
+  background: url("../_imagens/radio-tv.png") no-repeat;
+  background-size: 43rem 35rem;
+}
+#musica{
+  display: block;
+  position: relative;
+  left: 28rem;
+  top: 30.2rem;
+  width: 30vh;
+
+
+}
+#filme3{
+  display: block;
+  position: relative;
+  left: 3.9rem;
+  top: 5rem;
+  width: 22rem;
+
+}
+#filme1{
+  display: block;
+  position: relative;
+  width: 100vh;
+  max-width: 22rem;
+  border-bottom: 21rem;
+
+}
+#filme2{
+  display:block;
+  position: relative;
+  width: 26vw;
+  
+  border-bottom: 1rem;
+
+}
